@@ -1,63 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TR66TL4N');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NIT7ER - Restaurant System Design Studio. We help restaurants increase bookings, reduce manual workload, and operate smoothly using automated systems.">
+    <meta name="description" content="NIT7ER - Premium Restaurant System Design Studio. We help restaurants increase bookings, reduce manual workload, and operate flawlessly.">
+    
     <title>NIT7ER | Premium Restaurant Systems</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%2280%22 font-family=%22Montserrat, sans-serif%22 font-size=%2290%22 font-weight=%22800%22 fill=%22%23C5A059%22>7</text></svg>">
+
+    <!-- Required Preloads for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '916479917976955');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=916479917976955&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="container container-nav">
-            <div class="logo">NIT7ER.</div>
-            <a href="#demo" class="btn btn-outline">Book Demo</a>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TR66TL4N"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Fixed Background for gliding effect -->
+    <div class="fixed-bg"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Mobile Sticky CTA - CRO -->
+    <div class="mobile-sticky-cta">
+        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold" style="width: 100%;">Book Your Demo</a>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="glass-header">
+        <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+            <div class="logo" style="display: flex; flex-direction: column; line-height: 1;">
+                <span class="logo-text" style="font-size: 2.2rem; margin-bottom: 2px;">N<span class="text-gold">7</span></span>
+                <span class="logo-sub" style="margin-left: 0;">Restaurant Systems</span>
+            </div>
+            
+            <a href="https://wa.me/2347070763135?text=Hi%20NIT7ER,%20I%20want%20to%20book%20a%20demo%20for%20The%20Restaurant%20Growth%20System." target="_blank" rel="noopener noreferrer" class="app-download glass-panel hover-glow" style="padding: 8px 16px; display: flex; align-items: center; gap: 10px; border-radius: 8px; transition: background 0.2s;">
+                <i class="fa-brands fa-whatsapp text-green" style="font-size: 1.8rem;"></i>
+                <div style="display: flex; flex-direction: column; line-height: 1.1;">
+                    <strong style="font-size: 0.9rem; font-family: 'Montserrat', sans-serif;">Instant Demo</strong>
+                    <span class="text-muted" style="font-size: 0.75rem;">Try WhatsApp Flow</span>
+                </div>
+            </a>
+            
+            <nav class="main-nav" aria-label="Main Navigation">
+                <a href="#solution">Systems</a>
+                <a href="#how-it-works">Workflow</a>
+                <a href="#pricing">Pricing</a>
+                <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-white-small nav-cta">Get Started</a>
+            </nav>
         </div>
     </header>
 
-    <main>
+    <main class="main-content">
         <!-- Hero Section -->
-        <section class="hero" id="home">
-            <div class="container hero-content">
-                <h1 class="hero-headline reveal">We help restaurants get more bookings and reduce manual stress using <span class="text-accent">automated systems.</span></h1>
-                <p class="hero-subheadline reveal delay-1">I noticed your booking and customer flow can be improved.</p>
-                <div class="hero-cta reveal delay-2">
-                    <a href="#demo" class="btn btn-primary btn-large">Book Your Demo Now</a>
-                    <p class="support-line">See exactly how your system would work — before you pay.</p>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-ticker">
+                    <span class="ticker-item"><i class="fa-brands fa-whatsapp text-green"></i> WhatsApp +184.4%</span>
+                    <span class="ticker-item"><i class="fa-solid fa-calendar-check text-green"></i> Bookings 24/7</span>
+                    <span class="ticker-item"><i class="fa-solid fa-users text-green"></i> Zero No-shows</span>
+                </div>
+
+                <div class="hero-text-content">
+                    <h1 class="hero-title">We help restaurants get more bookings and reduce manual stress using <span class="text-gold">automated systems.</span></h1>
+                    <p class="hero-desc">I noticed your booking and customer flow can be improved. Access 24/7 reservations, instant WhatsApp replies, and retention tools in one place.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold btn-large">Book Your Demo Now</a>
+                        <p class="support-line mt-2 text-muted">See exactly how your system would work — before you pay.</p>
+                    </div>
                 </div>
             </div>
-            <div class="hero-bg-glow"></div>
+
+            <!-- Hero Stats Grid -->
+            <div class="hero-stats">
+                <div class="container stats-container">
+                    <article class="stat-item">
+                        <h2 class="stat-value">250+</h2>
+                        <p class="stat-label">Restaurants Optimized</p>
+                    </article>
+                    <article class="stat-item">
+                        <h2 class="stat-value">1:400</h2>
+                        <p class="stat-label">ROI Average</p>
+                    </article>
+                    <article class="stat-item">
+                        <h2 class="stat-value">24/7</h2>
+                        <p class="stat-label">Automated Flow</p>
+                    </article>
+                    <article class="stat-item">
+                        <h2 class="stat-value">0.03 ms</h2>
+                        <p class="stat-label">Execution Speed</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <!-- The Problem Section -->
         <section class="section problem-section" id="problem">
             <div class="container">
-                <div class="problem-list reveal">
-                    <div class="problem-card">
-                        <i class="fa-regular fa-comment-dots icon"></i>
-                        <p>Customers DM to book but do not get replies fast enough.</p>
-                    </div>
-                    <div class="problem-card">
-                        <i class="fa-solid fa-users-slash icon"></i>
-                        <p>Staff are overwhelmed handling reservations manually.</p>
-                    </div>
-                    <div class="problem-card">
-                        <i class="fa-solid fa-calendar-xmark icon"></i>
-                        <p>No-shows cost you money because reminders are forgotten.</p>
-                    </div>
-                    <div class="problem-card">
-                        <i class="fa-solid fa-user-minus icon"></i>
-                        <p>You lose repeat business by failing to capture customer data.</p>
-                    </div>
-                </div>
-                <div class="problem-closing reveal delay-1">
+                <header class="section-header">
+                    <h2>The Old Way Limits Growth.</h2>
                     <p>Manual operations kill efficiency and leak revenue.</p>
+                </header>
+                <div class="offset-grid">
+                    <article class="problem-card glass-panel">
+                        <div class="icon-ring"><i class="fa-solid fa-comment-dots text-red"></i></div>
+                        <h3>Lost Conversations</h3>
+                        <p>Customers DM to book but do not get replies fast enough. You lose them to competitors.</p>
+                    </article>
+                    <article class="problem-card glass-panel">
+                        <div class="icon-ring"><i class="fa-solid fa-users-slash text-red"></i></div>
+                        <h3>Staff Overload</h3>
+                        <p>Your team is overwhelmed handling reservations manually instead of focusing on serving guests.</p>
+                    </article>
+                    <article class="problem-card glass-panel">
+                        <div class="icon-ring"><i class="fa-solid fa-calendar-xmark text-red"></i></div>
+                        <h3>Empty Tables</h3>
+                        <p>No-shows cost you money because follow-ups and manual reminders are easily forgotten.</p>
+                    </article>
+                    <article class="problem-card glass-panel">
+                        <div class="icon-ring"><i class="fa-solid fa-user-minus text-red"></i></div>
+                        <h3>Lost Loyalty</h3>
+                        <p>You lose repeat business simply by failing to capture and re-engage guest data efficiently.</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -65,33 +162,43 @@
         <!-- The Solution Section -->
         <section class="section solution-section" id="solution">
             <div class="container">
-                <div class="section-header reveal">
+                <header class="section-header">
                     <h2>We build the system your restaurant should already have.</h2>
-                </div>
-                <div class="solution-grid">
-                    <div class="solution-card reveal">
-                        <i class="fa-solid fa-globe icon"></i>
-                        <h3>Website</h3>
-                        <p>Turn your brand into a high-converting digital storefront.</p>
-                    </div>
-                    <div class="solution-card reveal delay-1">
-                        <i class="fa-solid fa-calendar-check icon"></i>
-                        <h3>Booking System</h3>
-                        <p>Lock in reservations 24/7 without a single phone call.</p>
-                    </div>
-                    <div class="solution-card reveal delay-2">
-                        <i class="fa-brands fa-whatsapp icon"></i>
-                        <h3>WhatsApp Automation</h3>
-                        <p>Answer FAQs and confirm tables instantly on autopilot.</p>
-                    </div>
-                    <div class="solution-card reveal delay-3">
-                        <i class="fa-solid fa-bullseye icon"></i>
-                        <h3>Retention System</h3>
-                        <p>Bring guests back systematically with automated follow-ups.</p>
-                    </div>
-                </div>
-                <div class="unifying-statement reveal delay-1">
                     <p>Everything connects to run your operations flawlessly.</p>
+                </header>
+                
+                <div class="solution-grid">
+                    <article class="solution-feature glass-panel">
+                        <i class="fa-solid fa-globe icon text-gold"></i>
+                        <div>
+                            <h3>Digital Storefront</h3>
+                            <p>Turn your brand into a high-converting digital storefront. A beautiful website that converts visitors.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="solution-feature glass-panel">
+                        <i class="fa-solid fa-calendar-check icon text-gold"></i>
+                        <div>
+                            <h3>Smart Bookings</h3>
+                            <p>Lock in reservations 24/7 without a single phone call. Automated calendar syncing and management.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="solution-feature glass-panel">
+                        <i class="fa-brands fa-whatsapp icon text-gold"></i>
+                        <div>
+                            <h3>WhatsApp Automation</h3>
+                            <p>Answer FAQs and confirm tables instantly on autopilot. Meet your guests where they already are.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="solution-feature glass-panel">
+                        <i class="fa-solid fa-bullseye icon text-gold"></i>
+                        <div>
+                            <h3>Retention Engine</h3>
+                            <p>Bring guests back systematically with automated follow-ups, special offers, and birthday messages.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -99,129 +206,163 @@
         <!-- How It Works Section -->
         <section class="section how-it-works" id="how-it-works">
             <div class="container">
-                <div class="section-header reveal">
-                    <h2>How It Works</h2>
-                </div>
-                <div class="workflow">
-                    <div class="step reveal">
-                        <div class="step-num">01</div>
-                        <div class="step-content">
-                            <h3>Customer Action</h3>
-                            <p>A guest visits your website or social media profile.</p>
-                        </div>
-                    </div>
-                    <div class="step reveal delay-1">
-                        <div class="step-num">02</div>
-                        <div class="step-content">
-                            <h3>System Response</h3>
-                            <p>They view your menu and reserve a table instantly.</p>
-                        </div>
-                    </div>
-                    <div class="step reveal delay-2">
-                        <div class="step-num">03</div>
-                        <div class="step-content">
-                            <h3>Automation</h3>
-                            <p>Your system sends an immediate WhatsApp confirmation and reminder.</p>
-                        </div>
-                    </div>
-                    <div class="step reveal delay-3">
-                        <div class="step-num">04</div>
-                        <div class="step-content">
-                            <h3>Result</h3>
-                            <p>They show up, dine, and enter your automated retention loop.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="unifying-statement reveal delay-1" style="max-width: 800px; margin: 0 auto;">
+                <header class="section-header">
+                    <h2>The Flow</h2>
                     <p>More revenue generated with zero extra manual effort.</p>
+                </header>
+                
+                <div class="workflow-timeline">
+                    <article class="timeline-step glass-panel">
+                        <div class="step-num text-gold">01</div>
+                        <div class="step-details">
+                            <h3>Customer Action</h3>
+                            <p>A guest visits your website or clicks the link in your social media bio.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-step glass-panel">
+                        <div class="step-num text-gold">02</div>
+                        <div class="step-details">
+                            <h3>System Response</h3>
+                            <p>They view your menu, check availability, and reserve a table instantly.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-step glass-panel">
+                        <div class="step-num text-gold">03</div>
+                        <div class="step-details">
+                            <h3>Automation</h3>
+                            <p>Your system sends an immediate WhatsApp confirmation and automated reminder.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-step glass-panel">
+                        <div class="step-num text-gold">04</div>
+                        <div class="step-details">
+                            <h3>Result</h3>
+                            <p>They show up, dine perfectly, and automatically enter your retention loop.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Before vs After Section -->
-        <section class="section comparison-section" id="comparison">
+        <!-- Before Vs After Section -->
+        <section class="section compare-section">
             <div class="container">
-                <div class="section-header reveal">
-                    <h2>The Transformation</h2>
-                </div>
-                <div class="reveal">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th class="before">Before NIT7ER</th>
-                                <th class="after">After NIT7ER</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="before"><i class="fa-solid fa-xmark"></i>DMs go unanswered during peak hours</td>
-                                <td class="after"><i class="fa-solid fa-check"></i>Instant, automated replies 24/7</td>
-                            </tr>
-                            <tr>
-                                <td class="before"><i class="fa-solid fa-xmark"></i>Staff waste time taking manual table bookings</td>
-                                <td class="after"><i class="fa-solid fa-check"></i>Guests reserve tables seamlessly online</td>
-                            </tr>
-                            <tr>
-                                <td class="before"><i class="fa-solid fa-xmark"></i>Frequent no-shows leave tables empty</td>
-                                <td class="after"><i class="fa-solid fa-check"></i>Automated reminders ensure full capacity</td>
-                            </tr>
-                            <tr>
-                                <td class="before"><i class="fa-solid fa-xmark"></i>Customer data is lost after one visit</td>
-                                <td class="after"><i class="fa-solid fa-check"></i>Automated follow-ups drive repeat business</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <article class="compare-wrapper glass-panel">
+                    <div class="compare-col before-col">
+                        <h3 class="compare-title"><i class="fa-solid fa-xmark text-red"></i> Before NIT7ER</h3>
+                        <ul class="compare-list">
+                            <li>DMs go unanswered during peak hours</li>
+                            <li>Staff waste time taking manual phone bookings</li>
+                            <li>Frequent no-shows leave revenue on the table</li>
+                            <li>Guest data evaporates after a single visit</li>
+                        </ul>
+                    </div>
+                    <div class="compare-col after-col">
+                        <h3 class="compare-title"><i class="fa-solid fa-check text-green"></i> After NIT7ER</h3>
+                        <ul class="compare-list">
+                            <li>Instant, automated WhatsApp replies 24/7</li>
+                            <li>Guests reserve capacity seamlessly online</li>
+                            <li>Automated reminders guarantee full tables</li>
+                            <li>Automated flows drive massive repeat business</li>
+                        </ul>
+                    </div>
+                </article>
             </div>
         </section>
 
         <!-- Pricing Section -->
         <section class="section pricing" id="pricing">
             <div class="container">
-                <div class="section-header reveal">
+                <header class="section-header">
                     <h2>Transparent Pricing</h2>
                     <p>Select the system that fits your growth stage.</p>
-                </div>
-                <div class="pricing-grid">
-                    <div class="pricing-card reveal">
-                        <h3>Starter System</h3>
-                        <div class="price">₦150k – ₦300k</div>
-                        <p>Essential landing page and basic booking setup.</p>
-                        <a href="#demo" class="btn btn-outline">Select Plan</a>
-                    </div>
-                    <div class="pricing-card popular reveal delay-1">
+                </header>
+                <div class="pricing-deck">
+                    <article class="pricing-card glass-panel">
+                        <h3 class="tier-name">Starter System</h3>
+                        <div class="tier-price">₦150k <span class="price-range">– ₦300k</span></div>
+                        <p class="tier-desc">Essential landing page and basic booking setup.</p>
+                        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold cta-card-btn">Select Starter</a>
+                    </article>
+                    
+                    <article class="pricing-card glass-panel popular">
                         <div class="popular-badge">Core Offer</div>
-                        <h3>Growth System</h3>
-                        <div class="price">₦400k – ₦800k</div>
-                        <p>High-converting website, automated bookings, and WhatsApp integration.</p>
-                        <a href="#demo" class="btn btn-primary">Select Plan</a>
-                    </div>
-                    <div class="pricing-card reveal delay-2">
-                        <h3>Premium System</h3>
-                        <div class="price">₦900k – ₦1.5M+</div>
-                        <p>Custom digital experience, full CRM, and advanced retention marketing.</p>
-                        <a href="#demo" class="btn btn-outline">Select Plan</a>
-                    </div>
+                        <h3 class="tier-name text-gold">Growth System</h3>
+                        <div class="tier-price">₦400k <span class="price-range">– ₦800k</span></div>
+                        <p class="tier-desc">Website, automated bookings, and WhatsApp integration.</p>
+                        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold cta-card-btn">Select Growth</a>
+                    </article>
+                    
+                    <article class="pricing-card glass-panel">
+                        <h3 class="tier-name">Premium System</h3>
+                        <div class="tier-price">₦900k <span class="price-range">– ₦1.5M+</span></div>
+                        <p class="tier-desc">Custom digital experience, full CRM, and marketing.</p>
+                        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold cta-card-btn">Select Premium</a>
+                    </article>
                 </div>
-                <p class="optimization-note reveal delay-1">*Note: Monthly optimization required (₦50,000 – ₦150,000/month)</p>
+                <div class="optimization-note text-center mt-2">
+                    <p>*Monthly optimization required (₦50,000 – ₦150,000/month)</p>
+                </div>
             </div>
         </section>
 
         <!-- Final CTA Section -->
-        <section class="section final-cta" id="demo-final">
-            <div class="container reveal">
-                <h2>More bookings.<br>Less stress.<br><span class="text-accent">That’s the system.</span></h2>
-                <a href="#demo" class="btn btn-primary btn-large">Book Your Demo Now</a>
-                <p class="support-line" style="margin-top: 20px;">We’ll show you exactly how it works for your restaurant.</p>
+        <section class="section final-cta" id="demo">
+            <div class="container">
+                <article class="cta-box glass-panel">
+                    <h2>More bookings. Less stress.<br><span class="text-gold">That’s the system.</span></h2>
+                    <div class="cta-actions">
+                        <a href="https://calendly.com/qaasimkids6/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold btn-huge">Book Your Demo Now</a>
+                    </div>
+                    <p class="support-line mt-2 text-muted">We’ll show you exactly how it works for your restaurant.</p>
+                </article>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer glass-panel" style="border-radius:0; border-bottom:none; border-left:none; border-right:none; padding:60px 0 20px;">
         <div class="container">
-            <div class="logo" style="margin-bottom: 20px;">NIT7ER.</div>
-            <p>&copy; 2026 NIT7ER Studio. All rights reserved.</p>
+            <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:40px; margin-bottom:40px;">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text" style="font-size:3rem; line-height:1;">N<span class="text-gold">7</span></span>
+                    </div>
+                    <p class="mt-2 text-muted" style="line-height:1.4;">Lagos, Nigeria<br><a href="mailto:nit7er@gmail.com" style="color:var(--text-main);">nit7er@gmail.com</a></p>
+                    <div class="mt-2">
+                        <a href="https://instagram.com/nit7er" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding:8px 0;"><i class="fa-brands fa-instagram" style="font-size:1.6rem; color:#fff;"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom:20px; font-family:'Montserrat', sans-serif;">Legal</h4>
+                    <ul style="display:flex; flex-direction:column; gap:12px;">
+                        <li><a href="https://docs.google.com/document/d/1zDX-7H47sakoBZxAFs1wXw3bJkT4l6L9KAsTQNYXuhU/edit?tab=t.25iwd41tcksq" target="_blank" rel="noopener noreferrer" class="text-muted">Privacy Policy</a></li>
+                        <li><a href="https://docs.google.com/document/d/1zDX-7H47sakoBZxAFs1wXw3bJkT4l6L9KAsTQNYXuhU/edit?tab=t.jlgwxjve66w3" target="_blank" rel="noopener noreferrer" class="text-muted">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center pt-3" style="border-top:1px solid rgba(255,255,255,0.1);">
+                <p class="text-muted" style="font-size:0.9rem;">&copy; 2026 NIT7ER Studio. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+    
+    <!-- Ultra-lightweight JS -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 80;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
